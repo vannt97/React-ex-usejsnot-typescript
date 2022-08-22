@@ -9,7 +9,13 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@babel/runtime": "7.13.8",
+    "axios": "0.21.1",
+    "three": "0.126.1",
+    "three-css3drenderer": "1.0.1",
+    "three-trackballcontrols": "0.9.0",
+    "tween.js": "16.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
