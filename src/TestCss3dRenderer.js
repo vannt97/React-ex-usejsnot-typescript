@@ -24,7 +24,7 @@ export default function TestCss3dRenderer() {
 
       let ele = document.createElement("div");
       objEle3d = new CSS3DObject(ele);
-      ele.innerHTML = "<h1>Hello world</h1>";
+      ele.innerHTML = "<input type='text' value='Hello'/>";
       objEle3d.position.set(0, 0, 0);
       scene.add(objEle3d);
     }
