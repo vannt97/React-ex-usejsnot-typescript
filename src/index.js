@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import TestCss3dRenderer from './TestCss3dRenderer';
+import Main from './Main';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <TestCss3dRenderer/>
+    // <TestCss3dRenderer/>
+    <Main/>
 );
 
 // If you want to start measuring performance in your app, pass a function
