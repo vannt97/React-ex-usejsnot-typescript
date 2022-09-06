@@ -1,15 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import TestCss3dRenderer from './TestCss3dRenderer';
-import Main from './Main';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import TestCss3dRenderer from "./TestCss3dRenderer";
+import Main from "./Main";
+import FormikDemo from "./Ex/FormikDemo";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    // <TestCss3dRenderer/>
-    <Main/>
+  // <TestCss3dRenderer/>
+  // <Main/>
+  <FormikDemo />
 );
 
 // If you want to start measuring performance in your app, pass a function
