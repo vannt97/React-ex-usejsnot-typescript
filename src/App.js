@@ -228,7 +228,7 @@ export default function App() {
       <div id="info">
         <a href="https://threejs.org" target="_blank" rel="noopener">
           three.js
-        </a>{" "}
+        </a>
         css3d - periodic table.
       </div>
       <div id="container"></div>
